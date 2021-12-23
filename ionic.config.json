@@ -1,0 +1,7 @@
+{
+  "name": "Leccion1QM",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

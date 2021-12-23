@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>CALIFICACIONES</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row *ngFor="let item of data; index as i">
+      <ion-col size="1">{{ i+ 1 }}</ion-col>
+      <ion-col size="3"> {{ item.NOMBRE }}</ion-col>
+      <ion-col size="3"> {{ item.MATERIA }}</ion-col>
+      <ion-col size="3"> {{ item.CALIFICACION }}</ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
